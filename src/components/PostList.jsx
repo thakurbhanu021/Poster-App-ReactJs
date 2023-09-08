@@ -9,13 +9,7 @@ const PostList = () => {
    const posts = loaderData;
 
   // const addPostHandler = (postData) => {
-  //   fetch("http://localhost:8080/posts", {
-  //     method: "POST",
-  //     body: JSON.stringify(postData),
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   });
+  //   
   //   setPosts((existingPosts) => [postData, ...existingPosts]);
   // };
   return (
